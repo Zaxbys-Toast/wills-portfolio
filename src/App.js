@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header.js';
+import RoundedBox from './components/RoundedBox.js';
+import { ReactComponent as skyline } from './assets/skyline.svg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div>
+		  <Header />
+		  <RoundedBox
+		    title="Welcome"
+		    text="This website is both a personal portfolio as well as an exercise in creating React webapps. I created this page initially for personal satisfaction, however, it has been repourposed into a place to share my projects."
+		    ImageComponent={skyline}
+		  />
+		  
+		</div>
+	);
 }
 
-export default App;

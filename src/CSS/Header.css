@@ -1,0 +1,83 @@
+/*
+ * The Colors in use here are as follows
+ * Main background: AAB396
+ * Header Background: FFF8E8 
+ * Font color: 674636
+ * Dropdown color: A27B5C
+ * Highlighted dropdown color: F7EED3
+*/
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 85%;
+  padding: 10px 20px;
+  background-color: #F7EED3;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  white-space: nowrap;
+  border-bottom: 5px solid #A27B5C;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.menu-wrapper {
+  position: relative;
+  white-space: nowrap;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  white-space: nowrap;
+  color: #674636;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background-color: #A27B5C;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  font-size: 0.8rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #674636;
+  padding: 10px 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.link:hover {
+  background: #F7EED3;
+}
+/********************* This is Important, Should copy into other components in order to make the text color and font the same *************************/
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #674636;
+}

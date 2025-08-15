@@ -1,0 +1,43 @@
+.rounded-box {
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 2.5% 2.5%;
+  width: 95%;
+  max-width: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #F7EED3;
+  box-sizing: border-box;
+}
+
+.rounded-box-image {
+  max-width: 100%;
+  margin: 10px 0 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #A27B5C;
+}
+
+.rounded-box-title {
+  margin: 10px 0 10px;
+  font-size: 3rem;
+  color: #674636;
+  text-align: center;
+  border-bottom: 3px solid #A27B5C;
+}
+
+.rounded-box-text {
+  margin: 10px 0 10px;
+  font-size: 1.5rem;
+  color: #674636;
+  
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #674636;
+}
+
