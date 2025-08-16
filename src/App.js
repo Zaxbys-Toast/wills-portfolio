@@ -1,19 +1,18 @@
-import React from 'react';
-import Header from './components/Header.js';
-import RoundedBox from './components/RoundedBox.js';
-import { ReactComponent as skyline } from './assets/skyline.svg';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+
 
 export default function App() {
-	return (
-		<div>
-		  <Header />
-		  <RoundedBox
-		    title="Welcome"
-		    text="This website is both a personal portfolio as well as an exercise in creating React webapps. I created this page initially for personal satisfaction, however, it has been repourposed into a place to share my projects."
-		    ImageComponent={skyline}
-		  />
-		  
-		</div>
-	);
+  return (
+    <Router>
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
