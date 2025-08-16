@@ -6,7 +6,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="header inter-regular">
+    <header className="header">
       <div className="title">Will's Portfolio</div>
       <div className="menu-wrapper">
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)}>
@@ -16,7 +16,7 @@ export default function Header() {
           <div className="dropdown">
             <Link to="/" className="link">Home</Link>
             <a href="#projects" className="link">Projects</a>
-            <Link to="/Contact" className="link">Contact</Link>
+            <Link to="/About" className="link">About</Link>
           </div>
         )}
       </div>

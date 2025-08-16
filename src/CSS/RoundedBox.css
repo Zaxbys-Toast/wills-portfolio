@@ -21,22 +21,22 @@
 .rounded-box-title {
   margin: 10px 0 10px;
   font-size: 3rem;
-  color: #674636;
   text-align: center;
   border-bottom: 3px solid #A27B5C;
+  color: #674636;
 }
 
 .rounded-box-text {
+  color: #674636;
   margin: 10px 0 10px;
   font-size: 1.5rem;
-  color: #674636;
   
 }
 
-.inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+@font-face {
+  font-family: 'Figtree';
+  src: url('../assets/Figtree-Bold.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   color: #674636;
 }
