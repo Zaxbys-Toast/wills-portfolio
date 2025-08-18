@@ -9,7 +9,7 @@ export default function home() {
           <Header />
           <RoundedBox
             title="Welcome"
-            text="This website is both a personal portfolio as well as an exercise in creating React webapps. I created this page initially for personal satisfaction, however, it has been repourposed into a place to share my projects."
+            text="This website is both a personal portfolio as well as an exercise in creating React webapps. I created this page initially for personal satisfaction, however, it has been repurposed into a place to share my projects."
             ImageComponent={skyline}
           />
           
