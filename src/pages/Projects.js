@@ -27,7 +27,11 @@ export default function Projects() {
 	    		title="B-Tree Implementation"
 	    		text={
 					<>
-							C++ Project. Goal was to implement a B-Tree capable of splitting at least one time. 
+							This project focused on building a B-Tree in C++. My main objective was to ensure that 
+                       	 	the tree could handle insertion operations and properly split nodes when capacity was 
+                        	exceeded. The implementation required careful pointer management and recursive logic 
+                        	to maintain balance. By the end, the tree was able to split multiple times, preserving 
+                        	the B-Tree properties and allowing efficient data organization. 
 
 				 	</>
 				}
@@ -36,7 +40,11 @@ export default function Projects() {
 	    		title="Tar Util"
 	    		text={
 					<>
-							Custom Tar implementation in C++
+                        	For this project, I created a custom implementation of the Unix tar utility 
+                        	in C++. The goal was to package and extract groups of files using a format similar to the 
+                        	real tool. I worked on designing the archive structure, handling file metadata, and ensuring 
+                        	files could be correctly reconstructed after extraction. This helped me understand file I/O 
+                        	operations in depth as well as the details of how archival tools manage data.
 				 	</>
 				}
 	    	/>
@@ -45,7 +53,11 @@ export default function Projects() {
 				title="Cmp Util"
 				text={
 					<>
-							Custom Cmp implementation in C++
+							Similar in style to the <code>tar</code> project, I built my own version of the 
+                        	<code>cmp</code> utility in C++. This tool compares two files byte by byte and reports 
+                        	the first difference. The challenge was ensuring accuracy and efficiency, particularly 
+                        	with large files. Working on this gave me a better appreciation for low-level file 
+                        	handling and the kind of optimizations needed in system-level utilities.
 				 	</>
 				}
 			/>
@@ -54,9 +66,12 @@ export default function Projects() {
 				title="The Poker Project"
 				text={
 					<>
-							Created a 5 card stud poker simulation, with a tie breaking algorithm, in ten separate programming languages.
-							Then as an extension of that project worked with a group of students to create a simulation including joker wild
-							cards in Ruby.
+							This project involved creating a 5-card stud poker simulation with full tie-breaking logic. 
+                        	I implemented algorithms to handle card ranking, suit prioritization, and special rules 
+                        	to ensure there were no ties. To challenge myself, I wrote the simulation in ten 
+                        	different programming languages, exploring language-specific strengths and weaknesses. 
+                        	Later, I collaborated with a group to extend the project in Ruby by adding joker wildcards 
+                        	and more advanced rule sets.
 				 	</>
 				}
 			/>
@@ -65,7 +80,11 @@ export default function Projects() {
 				title="Game of Life"
 				text={
 					<>
-							The classic Game of Life algorithm, written in Python. Runs in the command line.
+							For this project, I implemented Conways Game of Life entirely in Python. The program runs 
+                        	in the command line and simulates the cellular automaton based on user-defined starting 
+                        	states. I focused on optimizing the update loop and ensuring clarity in the output display. 
+                        	This project was a great exercise in algorithm design and reinforced my skills in grid-based 
+                        	simulations.
 				 	</>
 				}
 			/>
@@ -74,9 +93,12 @@ export default function Projects() {
 				title="M-Project"
 				text={
 					<>
-							A full-stack developement project created with two other students. I worked on the database and
-							methods to utilize the database. Additionally helped with the UI and getting the custom server working.
-							All done in Java utilizing Java Swing.
+							This was a large-scale, full-stack development project built with two other students. 
+                        	I was primarily responsible for designing and managing the database, creating methods 
+                        	for accessing and updating records, and integrating it with the rest of the system. 
+                        	I also contributed to the UI design and helped configure our custom server. The project 
+                        	was implemented in Java using Java Swing for the interface, and it provided great 
+                        	experience in combining front-end and back-end components into one working system.
 				 	</>
 				}
 			/>
@@ -84,7 +106,11 @@ export default function Projects() {
 				title="Simple Chat Bot"
 				text={
 					<>
-							A very simple chat bot with responses based on keywords in sentences. Written in python.
+							This project was a lightweight chat bot written in Python. The bot used basic natural 
+                        	language processing by cleaning and then scanning input sentences for keywords and generating responses 
+                        	based on those triggers. While simple, it provided a foundation for understanding how 
+                        	conversational agents can be built and gave me the opportunity to experiment with 
+                        	branching logic and text-based interaction design.
 				 	</>
 				}
 			/>
