@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import RoundedBox from '../components/RoundedBox.js';
-import { ReactComponent as skyline } from '../assets/skyline.svg';
+import { ReactComponent as skyline } from '../assets/pictures/skyline.svg';
 
 export default function home() {
     return (

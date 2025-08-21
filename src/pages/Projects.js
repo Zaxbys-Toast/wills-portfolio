@@ -1,6 +1,12 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import RoundedBox from '../components/RoundedBox.js';
+import jtar from '../assets/pictures/jtar_example.png';
+import cmp from '../assets/pictures/cmp_example.png';
+import poker from '../assets/pictures/poker_example.png';
+import gol from '../assets/pictures/GameOfLife_Example.png';
+import chatbot from '../assets/pictures/chatbot_example.png';
+import mproject from '../assets/pictures/mproject_example.png';
 
 export default function Projects() {
     return (
@@ -47,6 +53,7 @@ export default function Projects() {
                         	operations in depth as well as the details of how archival tools manage data.
 				 	</>
 				}
+				imageSrc={ jtar }
 	    	/>
 
 			<RoundedBox
@@ -60,6 +67,7 @@ export default function Projects() {
                         	handling and the kind of optimizations needed in system-level utilities.
 				 	</>
 				}
+				imageSrc={ cmp }
 			/>
 			
 			<RoundedBox
@@ -74,6 +82,7 @@ export default function Projects() {
                         	and more advanced rule sets.
 				 	</>
 				}
+				imageSrc={ poker }
 			/>
 			
 			<RoundedBox
@@ -87,6 +96,7 @@ export default function Projects() {
                         	simulations.
 				 	</>
 				}
+				imageSrc={ gol }
 			/>
 			
 			<RoundedBox
@@ -98,9 +108,14 @@ export default function Projects() {
                         	for accessing and updating records, and integrating it with the rest of the system. 
                         	I also contributed to the UI design and helped configure our custom server. The project 
                         	was implemented in Java using Java Swing for the interface, and it provided great 
-                        	experience in combining front-end and back-end components into one working system.
+                        	experience in combining front-end and back-end components into one working system. The 
+							documentation can be found <a href="http://webclass.cs.mercer.edu/~ia/MProject/docs.html">here</a>.
+							I also apologize for the lack of a picture of the actual chat window, the database that supported
+							the login function no longer exists.
 				 	</>
 				}
+				imageSrc={ mproject }
+
 			/>
 			<RoundedBox
 				title="Simple Chat Bot"
@@ -113,6 +128,7 @@ export default function Projects() {
                         	branching logic and text-based interaction design.
 				 	</>
 				}
+				imageSrc={ chatbot }
 			/>
         </div>
 
